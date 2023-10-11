@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Translator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Language Translator</h1>
+    <div class="translator">
+       <div class="upper">
+        <div>
+          
+            <select id="translateFrom">
+                <option value="en">English</option>
+                <option value="hi-In">Hindi</option>
+                <option value="es">Spanish</option>
+                <option value="fr">French</option>
+                
+            </select>
+        </div>
+        <div>
+           
+            <select id="translateTo">
+                <option value="hi-In">Hindi</option>
+                <option value="en">English</option>
+                <option value="es">Spanish</option>
+                <option value="fr">French</option>
+               
+            </select>
+        </div>
+       </div>
+        <textarea id="input" placeholder="Enter text..."></textarea>
+        <button id="btn">Translate</button>
+        <div id="outputText"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
