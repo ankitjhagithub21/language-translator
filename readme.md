@@ -2,6 +2,8 @@
 
 This is a basic web application that allows users to translate text from one language to another. It's built using HTML, CSS, and JavaScript and utilizes the MyMemory Translation API for language translation.
 
+![image](https://github.com/ankitjhagithub21/language-translator/assets/91364014/277cfd55-50c3-4b6a-b9bd-1ec82261041e)
+
 ## Features
 
 - Select the source and target languages for translation.
