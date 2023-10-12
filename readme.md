@@ -7,6 +7,9 @@ This is a basic web application that allows users to translate text from one lan
 - Select the source and target languages for translation.
 - Enter the text to be translated.
 - Click the "Translate" button to get the translation.
+- Click the "Clear" button to clear the textarea.
+- You can copy the text by clicking on copy icon.
+
 
 ## How to Use
 
@@ -22,7 +25,7 @@ This is a basic web application that allows users to translate text from one lan
 
 ## Languages
 
-You can select from a variety of languages for translation. The current options include English, Hindi, Spanish, and French. You can easily expand the list by adding more languages to the dropdown menus in the HTML.
+You can select from a variety of languages for translation. The current options include English, Hindi, and Urdu. You can easily expand the list by adding more languages to the dropdown menus in the HTML.
 
 ## Credits
 

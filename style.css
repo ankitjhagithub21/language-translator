@@ -1,93 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
+body{
     min-height: 100vh;
-    width: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #40739e;
-    font-family: 'Mulish', sans-serif;
-}
-
-h1 {
-   
-    color: #fff;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.translator {
-    width: 600px;
-    padding: 20px;
+    background: linear-gradient(45deg,#010758,#490d61);
     
-    border-radius: 10px;
-    background-color: #f5f5f5;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: whitesmoke;
 }
 
-.upper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+.col-lg-6{
+    position: relative;
 }
 
-
-
-select {
-    width: 100%;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
+.buttons{
+    position: absolute;
+    bottom:10px;
+    right: 20px;
 }
-
-textarea {
-    width: 100%;
-    height: 130px;
-    margin-bottom: 15px;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-top: 20px;
-}
-
-button {
-    background-color: #0074d9;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+i{
+    
+   
+    margin: 5px;
+    font-size: 20px;
     cursor: pointer;
-    font-size: 16px;
-    outline: none;
+    color: rgb(20, 128, 201);
 }
 
-#outputText {
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-
-@media (max-width:768px) {
-    .translator{
-        width: 100%;
-      
+@media (max-width:968px) {
+    .col-lg-6{
+        margin-top: 20px;
     }
-    body{
-        padding: 10px;
-    }   
+   
 }
